@@ -1,0 +1,189 @@
+/* nav-bar styling */
+/* nav{
+    background-color: black;
+} */
+
+
+
+nav a img{
+    width: 65%;
+}
+
+/* headr styling */
+
+header{
+    background-image: url(../Img/bggg.jpg);
+    background-size: cover;
+    background-position:center center ;
+}
+
+header .caption h1{
+    font-size: 4rem;
+}
+
+header .caption h1 span::after{
+    content: "";
+    animation-name: omar;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction:alternate ;
+
+}
+
+@keyframes omar {
+
+    0%{
+        content: "|";
+    }
+    5%{
+        content: "O|";
+    }
+
+    10%{
+        content: "Om|";
+    }
+
+    20%{
+        content: "Oma|";
+    }
+
+    30%{
+        content: "Omar|";
+    }
+
+    40%{
+        content: "Omar M|";
+
+    }
+
+    50%{
+        content: "Omar Mo|";
+
+    }
+
+    60%{
+        content: "Omar Moh|";
+
+    }
+
+    70%{
+        content: "Omar Moha|";
+
+    }
+
+    80%{
+        content: "Omar Moham|";
+
+    }
+
+    90%{
+        content: "Omar Mohame|";
+
+    }
+
+    100%{
+        content: "Omar Mohamed|";
+
+    }
+
+
+
+}
+
+
+header .caption .social-media .item{
+
+        width: 40px;
+        height: 40px;
+        border: solid 1px rgba(255, 255, 255, .4);
+        margin-right: 10px;
+        transition: border-color .5s;
+        
+}
+
+header .caption .social-media .item i{
+    font-size: 1.1rem;
+    transition: color .5s;
+}
+
+
+
+header .caption .social-media .item:hover{
+    border-color: #FF6577;
+}
+
+
+header .caption .social-media .item:hover i{
+    color: #FF6577 !important;
+} 
+
+
+header .caption a{
+    color:#FF6577 ;
+    text-decoration: none;
+}
+
+
+
+/* about section */
+
+.about{
+    background-image: url(../Img/light_dot.jpg);
+}
+
+.about h2{
+    font-size: 5rem;
+    color:#f1f1f1;
+}
+
+.about h3{
+    font-size: 2rem;
+}
+
+.about .child2 h6{
+    color:#FF6577;
+}
+
+
+
+/* fooer section */
+
+
+.footer .carousel-item img {
+    width: 100px;
+    transform: translateY(50%);
+}
+
+.footer .carousel-item .feedback {
+    border: 1px solid #f1f1f1;
+}
+
+.footer .brdr{
+    height: 1px;
+    width: 10%;
+    background-color:#FF6577 ;
+    margin: 10px auto;
+}
+
+
+.footer .carousel-indicators li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-indent: 0;
+}
+
+
+@media all and (max-width:991px){
+    nav{
+    background-color: black;
+        }
+
+    
+header .caption h1{
+    font-size: 2rem;
+}       
+
+
+
+}
